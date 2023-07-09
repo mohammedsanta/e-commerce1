@@ -1,0 +1,297 @@
+body {
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(95, 187, 199);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* box-shadow: ; */
+}
+
+header a {
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Products */
+
+.products {
+    width: 90%;
+    margin: 25px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .products .product {
+    width: 375px;
+    height: 455px;
+    background-color: #3F51B5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .products .product img {
+    width: 100%;
+    height: 190px;
+  }
+  
+  .products .product h2 {
+    height: 45px;
+    overflow: hidden;
+  }
+  
+  .products .product .description {
+    overflow: hidden;
+    height: 85px;
+  }
+
+  .products .product .price {
+    margin-bottom: 10px;
+  }
+
+  .products .product a {
+    width: 95px;
+    margin-bottom: 10px;
+    background-color: #ffffffc4;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    padding: 4px;
+  }
+
+/* End Products */
+
+/* Details Product */
+
+.details {
+  width: 70%;
+  height: 300px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;    
+  gap: 20px;
+}
+
+.details img {
+  width: 400px;
+  height: 300px;
+}
+
+.details h2 {
+  font-size: 40px;
+}
+
+.details .description {
+  font-size: 25px;
+}
+
+.details .price {
+
+}
+
+.details form input[type=submit] {
+  width: 100px;
+  height: 25px;
+  border-radius: 10px;
+  border: none;
+}
+
+/* End Details */
+
+/* Start Table */
+
+/* table {
+  margin: 115px auto;
+  width: 100%;
+  background-color: #b39e84d1;
+  border-collapse: collapse;
+  overflow-x:auto;
+  box-shadow: rgba(0,0,0,0.3) 1px 3px 30px;
+}
+
+thead {
+  background-color: #04AA6D;
+}
+
+thead tr th {
+padding: 0 15px;
+}
+
+tr {
+  text-align: center;
+}
+
+tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+
+tbody tr:hover{
+  background-color: #b7b7b7;
+}
+
+.controller {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  width: fit-content;
+} */
+
+/* End Table */
+
+
+/* Payment Page */
+
+  .payment {
+    width: 600px;
+    height: 400px;
+    background-color: #5062c9d9;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 15px;
+  }
+
+  .payment .total {
+    padding: 20px;
+    font-size: 35px;
+  }
+
+  .payment .credit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .payment .credit input {
+    width: 350px;
+    height: 20px;
+    border-radius: 10px;
+    border: 10px;
+  }
+
+  .payment .credit label {
+    font-size: 28px;
+  }
+
+  .payment button {
+    padding: 5px 11px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: bolder;
+  }
+
+/* End Payment */
+
+/* Profile */
+
+  .profile {
+    text-align: center;
+    padding: 50px;
+    background-color: #2196f3c7;
+  }
+
+  .profile p {
+    font-size: 30px;
+  }
+
+/* End Profile */
+
+/* Table */
+
+/* table {
+  width: 70%;
+  margin: 250px auto;
+}
+
+table thead {
+  background-color: #696666b5;
+}
+
+table thead tr th {
+
+}
+
+table tbody {
+  text-align: center;
+  background-color: #ff8400;
+  font-size: 20px;
+}
+
+table tbody tr {
+
+} */
+
+/* End Table */
+
+.form-order {
+  text-align: center;
+}
+
+.order {
+  padding: 4px 12px;
+  border-radius: 10px;
+  border: none;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.product-report {
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 5rem;
+}
+
+.logo {
+  width: 100px;
+  height: 75px;
+}
+
+/* cart */
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.margin0 {
+  margin: 0;
+}
+
+/* end cart */
+
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pages {
+  text-align: center;
+  font-size: 30px;
+}
+
+.pages a {
+  background-color: red;
+  border-radius: 20px;
+  margin: 11px;
+  padding: 12px;
+}
+
+.page-content--bge5 {
+  height: auto;
+}
